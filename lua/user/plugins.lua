@@ -157,7 +157,21 @@ return packer.startup(function(use)
   -- codi scratchpad
   use 'metakirby5/codi.vim'
 
-  -- own plugs end
+  -- auto rename tag equivalent
+  use 'AndrewRadev/tagalong.vim'
+
+  -- surround
+  use 'tpope/vim-surround'
+
+  -- autotag for react
+  use 'windwp/nvim-ts-autotag'
+  require'nvim-treesitter.configs'.setup {
+  autotag = {
+    enable = true,
+  }
+}
+
+  -- PLUGINS END
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

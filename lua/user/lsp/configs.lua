@@ -5,8 +5,9 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { "jsonls", "cssls", "intelephense", "marksman", "tsserver" } --adding html tiggers choice of formatter
+local servers = { "jsonls", "cssls", "intelephense", "marksman", "quick_lint_js" } --adding html tiggers choice of formatter
 --sumneko_lua removed over stylua 
+--tsserver replaced with eslint
 
 lsp_installer.setup({
   ensure_installed = servers,
