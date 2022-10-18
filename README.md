@@ -1,9 +1,9 @@
 <img src="readme-image.png" >
 
-- make sure you have eslint and perttier installed locally via npm.
-- for linting and formatting to work.
+- prettier and eslint npm -g
 - configure .eslintrc.json
 
+#### local: 
   * formatting.prettier - npm
   * formatting.stylua - npm
   * diagnostics.eslint - npm
@@ -13,7 +13,7 @@
   * stylelint - npm
   * stylua - cargo(if sumneko_lua lsp is not working)
 
-#### todo comments:
+#### todo comments types:
 
 <!-- TODO: -->
 <!-- FIX: -->
@@ -24,4 +24,4 @@
   <!-- PERF: -->
   <!-- HACK: -->
 
-- alex lsp w the suggestions writing mds.
+* alex lsp w the suggestions writing mds.
