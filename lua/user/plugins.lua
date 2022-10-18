@@ -149,12 +149,13 @@ return packer.startup(function(use)
   }
 
 
-  --vs code theme extensions
-  -- use 'Mofiqul/vscode.nvim'
-
   use 'junegunn/rainbow_parentheses.vim'
 
+  -- dark plus theme
   use 'christianchiarulli/nvcode-color-schemes.vim'
+
+  -- codi scratchpad
+  use 'metakirby5/codi.vim'
 
   -- own plugs end
 

@@ -1,6 +1,6 @@
 <img src="readme-image.png" >
 
-- prettier and eslint npm -g
+- prettier, eslint, emmet-ls npm -g
 - configure .eslintrc.json
 
 #### local: 
