@@ -81,7 +81,16 @@ vim.api.nvim_set_keymap('', '9',
   , {})
 
 
---code runner
-keymap("n", "<F5>", ":Lab code run<CR>", opts)
-keymap("n", "<F6>", ":Lab code stop<CR>", opts)
-keymap("n", "<F7>", ":Lab code panel<CR>", opts)
+-- code runner
+-- keymap("n", "<F5>", ":Lab code run<CR>", opts)
+-- keymap("n", "<F6>", ":Lab code stop<CR>", opts)
+-- keymap("n", "<F7>", ":Lab code panel<CR>", opts)
+-- Codi now
+
+
+-- minimap
+keymap("n", "<A-m>", ":MinimapToggle<CR>", opts)
+
+
+
+

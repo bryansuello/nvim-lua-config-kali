@@ -171,6 +171,9 @@ return packer.startup(function(use)
   }
 }
 
+  -- minimap
+  use 'wfxr/minimap.vim' --requires cargo install code-minimap
+
   -- PLUGINS END
 
   -- Automatically set up your configuration after cloning packer.nvim
