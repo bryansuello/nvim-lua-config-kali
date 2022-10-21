@@ -13,9 +13,9 @@ null_ls.setup({ --all lsp must be installed locally via npm or local package man
 	sources = { --check :NullLsInfo on a language to see what lsp you can use
 		formatting.prettier.with({ extra_args = { "--single-quote", "--jsx-single-quote" } }),
 		formatting.stylua, --if sumneko_lua not working, cargo install
-		diagnostics.eslint,
-		--diagnostics.alex, --for mdown
 		diagnostics.tidy, -- for html
+		--diagnostics.eslint, --got tsserver
+		--diagnostics.alex, --for mdown
 		--diagnostics.cspell, --disable for certain files. config in ~
 	},
 })

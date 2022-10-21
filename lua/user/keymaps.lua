@@ -89,7 +89,7 @@ vim.api.nvim_set_keymap('', '9',
 
 
 -- minimap
-keymap("n", "<A-m>", ":MinimapToggle<CR>", opts)
+-- keymap("n", "<A-m>", ":MinimapToggle<CR>", opts)
 
 
 
