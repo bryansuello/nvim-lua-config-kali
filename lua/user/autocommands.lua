@@ -48,6 +48,13 @@ augroup rainbow_lisp
   autocmd FileType lisp,clojure,scheme RainbowParentheses
 augroup END
 
+  "colorcolumn
+augroup colorcolumn
+autocmd!
+autocmd ColorScheme * set colorcolumn=81
+autocmd ColorScheme * highlight ColorColumn ctermbg=235 guibg=#D7BA67
+augroup END
+
 
 ]])
 
