@@ -48,8 +48,8 @@ vim.cmd([[set formatoptions-=cro]]) -- TODO: this doesn't seem to work
 -- vim.cmd [[highlight ColorColumn ctermbg=80 guibg=#262626]]
 
 -- minimap
-vim.g.minimap_auto_start = 1
-vim.g.minimap_auto_start_win_enter = 1
-vim.g.minimap_git_colors = 1
+-- vim.g.minimap_auto_start = 1
+-- vim.g.minimap_auto_start_win_enter = 1
+-- vim.g.minimap_git_colors = 1
 
 vim.g.rainbow_active = 1 --set to 0 if you want to enable it later via :RainbowToggle
