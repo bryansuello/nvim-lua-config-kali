@@ -72,13 +72,15 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Hop
 -- Search after cursor
-vim.api.nvim_set_keymap('', '8',
-  "<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.AFTER_CURSOR, current_line_only = true })<cr>"
-  , {})
+-- vim.api.nvim_set_keymap('', '8',
+  -- "<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.AFTER_CURSOR, current_line_only = true })<cr>"
+  -- , {})
 -- Seach before cursor
-vim.api.nvim_set_keymap('', '9',
-  "<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.BEFORE_CURSOR, current_line_only = true })<cr>"
-  , {})
+-- vim.api.nvim_set_keymap('', '9',
+--   "<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.BEFORE_CURSOR, current_line_only = true })<cr>"
+--   , {})
+keymap('n', '<A-8>', ":HopChar1<CR>", opts)
+
 
 
 -- code runner
