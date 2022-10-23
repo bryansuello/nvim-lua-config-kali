@@ -30,11 +30,11 @@ vim.cmd([[
   " augroup end
 
   " set background transparent
-  augroup _colorscheme
-    autocmd!
-    autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
-augroup end
-  colorscheme gruvbox  "gruvbox or monokai
+  "augroup _colorscheme
+  "  autocmd!
+  "  autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+"augroup end
+  "colorscheme gruvbox  "gruvbox or monokai
 
  augroup _lsp
    autocmd!
@@ -43,13 +43,13 @@ augroup end
 
 
   "rainbow parentheses
-augroup rainbow_lisp
+augroup _rainbow_lisp
   autocmd!
   autocmd FileType lisp,clojure,scheme RainbowParentheses
 augroup END
 
   "colorcolumn
-augroup colorcolumn
+augroup _colorcolumn
 autocmd!
 autocmd ColorScheme * set colorcolumn=81
 autocmd ColorScheme * highlight ColorColumn ctermbg=235 guibg=#D7BA67

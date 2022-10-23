@@ -20,6 +20,7 @@ require "user.indentline"
 require "user.whichkey"
 require "user.autocommands"
 
+
 -- remove gruvbox italics before autocmd runs to remove background
 -- require("gruvbox").setup({
 --   undercurl = true,
