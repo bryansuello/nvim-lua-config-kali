@@ -1,3 +1,5 @@
+# not working on neovim unstable
+
 <img src="readme-image.png" >
 
 - prettier, eslint, emmet-ls npm -g
